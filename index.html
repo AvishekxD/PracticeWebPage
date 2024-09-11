@@ -7,21 +7,24 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
     <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
 </head>
 <body class="bg-zinc-100">
 
     <!-- nav bar -->
 
-    <div class="mx-auto max-w-[1080px] flex flex-row lg:flex-row justify-between items-center text-black my-4">
-        <div class="flex flex-row items-center font-NeueRegular text-lg">
+    <div class="mx-auto max-w-[1080px] flex flex-row justify-between items-center text-black my-4 ">
+        <div class="flex flex-row justify-between items-center font-NeueRegular text-lg">
             <img src="Images/LogoWhite.png" alt="" class="invert size-10 duration-170 transition ease-in hover:scale-110">
             <ul class="pl-12 pr-8 hover:underline duration-170 transition ease-in hover:scale-110">About Us</ul>
             <ul class="px-8 hover:underline duration-170 transition ease-in hover:scale-110">How it work</ul>
             <ul class="px-8 hover:underline duration-170 transition ease-in hover:scale-110">Pricing</ul>
             <ul class="px-8 hover:underline duration-170 transition ease-in hover:scale-110">FAQs</ul>
         </div>
-        <button class="ml-60 px-6 py-[0.41rem] bg-white border-gray-200 border-[1px] font-NeueRegular duration-170 transition ease-in hover:scale-110">Login</button>
-        <button class="px-4 py-[0.40rem] bg-black text-white font-NeueRegular duration-170 transition ease-in hover:scale-110">Sign Up</button>
+        <!-- <div class="flex flex-row justify-between items-center space-x-3 max-md:flex-col "> -->
+            <button class="ml-60 px-6 py-[0.41rem] bg-white border-gray-200 border-[1px] font-NeueRegular duration-170 transition ease-in hover:scale-110">Login</button>
+            <button class="px-4 py-[0.40rem] bg-black text-white font-NeueRegular duration-170 transition ease-in hover:scale-110">Sign Up</button>
+        <!-- </div> -->
     </div>
 
      <!-- Landing Page -->
